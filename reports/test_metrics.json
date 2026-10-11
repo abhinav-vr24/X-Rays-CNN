@@ -1,0 +1,50 @@
+{
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "positive_class_for_binary_metrics": "PNEUMONIA",
+  "accuracy": 0.6298076923076923,
+  "precision_class_1": 0.6296900489396411,
+  "recall_class_1": 0.9897435897435898,
+  "f1_class_1": 0.769690927218345,
+  "roc_auc_class_1": 0.7176638176638176,
+  "confusion_matrix": [
+    [
+      7,
+      227
+    ],
+    [
+      4,
+      386
+    ]
+  ],
+  "classification_report": {
+    "NORMAL": {
+      "precision": 0.6363636363636364,
+      "recall": 0.029914529914529916,
+      "f1-score": 0.05714285714285714,
+      "support": 234.0
+    },
+    "PNEUMONIA": {
+      "precision": 0.6296900489396411,
+      "recall": 0.9897435897435898,
+      "f1-score": 0.769690927218345,
+      "support": 390.0
+    },
+    "accuracy": 0.6298076923076923,
+    "macro avg": {
+      "precision": 0.6330268426516388,
+      "recall": 0.5098290598290598,
+      "f1-score": 0.41341689218060107,
+      "support": 624.0
+    },
+    "weighted avg": {
+      "precision": 0.6321926442236394,
+      "recall": 0.6298076923076923,
+      "f1-score": 0.502485400940037,
+      "support": 624.0
+    }
+  },
+  "note": "Research/learning output only; not a validated medical diagnostic device."
+}

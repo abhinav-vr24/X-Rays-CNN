@@ -1,0 +1,51 @@
+{
+  "model": "resnet50",
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "positive_class_for_binary_metrics": "PNEUMONIA",
+  "accuracy": 0.8942307692307693,
+  "precision_class_1": 0.875,
+  "recall_class_1": 0.9692307692307692,
+  "f1_class_1": 0.9197080291970803,
+  "roc_auc_class_1": 0.9736576813499892,
+  "confusion_matrix": [
+    [
+      180,
+      54
+    ],
+    [
+      12,
+      378
+    ]
+  ],
+  "classification_report": {
+    "NORMAL": {
+      "precision": 0.9375,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.8450704225352113,
+      "support": 234.0
+    },
+    "PNEUMONIA": {
+      "precision": 0.875,
+      "recall": 0.9692307692307692,
+      "f1-score": 0.9197080291970803,
+      "support": 390.0
+    },
+    "accuracy": 0.8942307692307693,
+    "macro avg": {
+      "precision": 0.90625,
+      "recall": 0.8692307692307693,
+      "f1-score": 0.8823892258661458,
+      "support": 624.0
+    },
+    "weighted avg": {
+      "precision": 0.8984375,
+      "recall": 0.8942307692307693,
+      "f1-score": 0.8917189266988794,
+      "support": 624.0
+    }
+  },
+  "note": "Educational/research use only; not a validated medical diagnostic device."
+}

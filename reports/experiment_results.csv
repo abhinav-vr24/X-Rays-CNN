@@ -1,0 +1,16 @@
+group,experiment,epochs_requested,best_val_accuracy,best_val_loss,duration_seconds,class_names
+optimizers,Adam,8,0.992352,0.030308,1182.1,NORMAL|PNEUMONIA
+optimizers,SGD,8,1.0,0.236202,1343.94,NORMAL|PNEUMONIA
+optimizers,SGD_momentum,8,1.0,0.02346,1200.09,NORMAL|PNEUMONIA
+optimizers,RMSprop,8,1.0,0.006984,1007.57,NORMAL|PNEUMONIA
+activations,relu,8,0.992352,0.030308,1323.73,NORMAL|PNEUMONIA
+activations,tanh,8,0.164436,4.171612,1059.79,NORMAL|PNEUMONIA
+activations,elu,8,1.0,0.00033,1213.49,NORMAL|PNEUMONIA
+activations,selu,8,0.279159,2.149151,972.77,NORMAL|PNEUMONIA
+dropout,dropout_0.0,8,0.994264,0.033078,1154.14,NORMAL|PNEUMONIA
+dropout,dropout_0.2,8,1.0,0.00198,1630.37,NORMAL|PNEUMONIA
+dropout,dropout_0.4,8,1.0,9.5e-05,1267.6,NORMAL|PNEUMONIA
+dropout,dropout_0.5,8,1.0,1e-06,1985.74,NORMAL|PNEUMONIA
+architecture,filters_16_32_64,8,1.0,0.001162,457.95,NORMAL|PNEUMONIA
+architecture,filters_32_64_128,8,1.0,0.000357,793.96,NORMAL|PNEUMONIA
+architecture,filters_32_64_128_192,8,1.0,0.001759,1183.27,NORMAL|PNEUMONIA

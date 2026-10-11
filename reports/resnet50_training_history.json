@@ -1,0 +1,50 @@
+[
+  {
+    "stage": "frozen_backbone",
+    "epoch": 1,
+    "loss": 0.23178759217262268,
+    "accuracy": 0.9137601256370544,
+    "val_loss": 0.12904925644397736,
+    "val_accuracy": 0.9560229182243347
+  },
+  {
+    "stage": "frozen_backbone",
+    "epoch": 2,
+    "loss": 0.13056041300296783,
+    "accuracy": 0.9512661099433899,
+    "val_loss": 0.1303279846906662,
+    "val_accuracy": 0.95219886302948
+  },
+  {
+    "stage": "frozen_backbone",
+    "epoch": 3,
+    "loss": 0.11807325482368469,
+    "accuracy": 0.9591495394706726,
+    "val_loss": 0.11891819536685944,
+    "val_accuracy": 0.9588910341262817
+  },
+  {
+    "stage": "frozen_backbone",
+    "epoch": 4,
+    "loss": 0.09590402990579605,
+    "accuracy": 0.9648829698562622,
+    "val_loss": 0.14608415961265564,
+    "val_accuracy": 0.9588910341262817
+  },
+  {
+    "stage": "frozen_backbone",
+    "epoch": 5,
+    "loss": 0.10954676568508148,
+    "accuracy": 0.9572384357452393,
+    "val_loss": 0.17513474822044373,
+    "val_accuracy": 0.9483747482299805
+  },
+  {
+    "stage": "frozen_backbone",
+    "epoch": 6,
+    "loss": 0.08738203346729279,
+    "accuracy": 0.9689440727233887,
+    "val_loss": 0.18160352110862732,
+    "val_accuracy": 0.9445506930351257
+  }
+]
